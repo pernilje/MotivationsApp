@@ -7,6 +7,7 @@
     android:gravity="center"
     android:padding="24dp">
 
+    <!-- Citatvisning -->
     <TextView
         android:id="@+id/quoteTextView"
         android:layout_width="wrap_content"
@@ -17,6 +18,7 @@
         android:textColor="#333333"
         android:padding="24dp" />
 
+    <!-- Generér citat-knap -->
     <Button
         android:id="@+id/generateButton"
         android:layout_width="wrap_content"
@@ -24,6 +26,8 @@
         android:text="Giv mig motivation"
         android:textAllCaps="false"
         android:padding="16dp" />
+
+    <!-- Gem favorit-knap -->
     <Button
         android:id="@+id/saveFavoriteButton"
         android:layout_width="wrap_content"
@@ -32,4 +36,14 @@
         android:textAllCaps="false"
         android:padding="16dp" 
         android:layout_marginTop="16dp"/>
+    <!-- Favoritcitatvisning -->
+    <TextView
+        android:id="@+id/favoriteQuoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritcitat vises her"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:padding="24dp" />
 </LinearLayout>
